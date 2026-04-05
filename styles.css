@@ -219,6 +219,23 @@ a {
   background: rgba(21, 88, 186, 0.1);
 }
 
+.site-nav .instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--brand-strong);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 0.4rem 0.7rem;
+}
+
+.site-nav .instagram-link:hover,
+.site-nav .instagram-link:focus-visible {
+  color: #fff;
+  background: var(--brand-strong);
+  border-color: var(--brand-strong);
+}
+
 .nav-toggle {
   display: none;
   border: 1px solid var(--line);
