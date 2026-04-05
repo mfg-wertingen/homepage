@@ -552,6 +552,30 @@ a {
   font-size: 0.9rem;
 }
 
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 600;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  transition: color 180ms ease, background-color 180ms ease;
+}
+
+.instagram-link:hover,
+.instagram-link:focus-visible {
+  color: var(--brand-strong);
+  background: rgba(21, 88, 186, 0.1);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(20px);
